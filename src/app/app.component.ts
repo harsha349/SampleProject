@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SampleProject';
+  pageTitle:string='data binding in angular';
+  imageUrl='assets/pic.jpg'
+  username:string | undefined;
+  data:any=["A1","A2","A3"]
+  
+  hello(){
+    alert('you clicked me')
+  }
 }
